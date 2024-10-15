@@ -7,16 +7,6 @@ A rest API that provides the following functionalities:
 2. **Storage:**
    - Securely store the uploaded PDFs within the application for subsequent processing.
 
-I have hosted a postgres database on a cloud sever details of which can be found in the env example
-
-Note: You will get a ssl self-signed warning whilst running locally, in the command below in the terminal before starting the app
-
-otherwise you can spin up a docker instance of a pg database with `docker-compose -up`
-
-```bash
-$ export NODE_TLS_REJECT_UNAUTHORIZED='0'
-```
-
 ## Project setup
 
 ```bash
@@ -47,6 +37,5 @@ $ npm run start:dev
 
 - More defensive programming
 - Better detailed swagger documentation
-- Better structured layout and separation of components (Especially the login and register)
-- Write unit test (ignored due to time considerations)
+- Write unit test
 - Upload/recieve to/from S3 bucket
