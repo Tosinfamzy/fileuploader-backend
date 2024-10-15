@@ -43,9 +43,10 @@ $ npm run start:dev
 - File-User many to one relationship
 - Store file on local disk
 
-## Improvements given more time
+## Improvements/ TODO
 
 - More defensive programming
 - Better detailed swagger documentation
 - Better structured layout and separation of components (Especially the login and register)
 - Write unit test (ignored due to time considerations)
+- Upload/recieve to/from S3 bucket
